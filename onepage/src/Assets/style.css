@@ -1,0 +1,9 @@
+.Network {
+  border: 1px blue solid; }
+
+.Line {
+  border: 1px black solid;
+  margin: 3px; }
+
+.Prediction {
+  border: 1px red solid; }
