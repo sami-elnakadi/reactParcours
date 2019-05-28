@@ -9,9 +9,9 @@ export default class Train extends Component {
 
       <table>
           <th>Desination </th>
-
+            <tr> white city</tr>
           <th> Due </th>
-
+            <tr>0:00</tr>
           <th> Curent location</th>
             
       </table>
