@@ -6,21 +6,21 @@ export default class Icon extends Component {
         return (
        
         <div className="Icon">
-            <section id="two" class="main style2">
-				<div class="container">
-					<div class="row gtr-150">
-						<div class="col-6 col-12-medium">
-							<ul class="major-icons">
-								<li><span class="icon style1 major fa-code"></span></li>
-								<li><span class="icon style2 major fa-bolt"></span></li>
-								<li><span class="icon style3 major fa-camera-retro"></span></li>
-								<li><span class="icon style4 major fa-cog"></span></li>
-								<li><span class="icon style5 major fa-desktop"></span></li>
-								<li><span class="icon style6 major fa-calendar"></span></li>
+            <section id="two" className="main style2">
+				<div className="container">
+					<div className="row gtr-150">
+						<div className="col-6 col-12-medium">
+							<ul className="major-icons">
+								<li><span className="icon style1 major fa-code"></span></li>
+								<li><span className="icon style2 major fa-bolt"></span></li>
+								<li><span className="icon style3 major fa-camera-retro"></span></li>
+								<li><span className="icon style4 major fa-cog"></span></li>
+								<li><span className="icon style5 major fa-desktop"></span></li>
+								<li><span className="icon style6 major fa-calendar"></span></li>
 							</ul>
 						</div>
-						<div class="col-6 col-12-medium">
-							<header class="major">
+						<div className="col-6 col-12-medium">
+							<header className="major">
 								<h2>Lorem ipsum dolor adipiscing<br />
 								amet dolor consequat</h2>
 							</header>

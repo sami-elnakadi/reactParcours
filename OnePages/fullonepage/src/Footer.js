@@ -7,14 +7,14 @@ export default class Footer extends Component {
        
         <div className="Footer">
             <section id="footer">
-				<ul class="icons">
-					<li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
-					<li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
-					<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
-					<li><a href="#" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
-					<li><a href="#" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
+				<ul className="icons">
+					<li><a href="#" className="icon alt fa-twitter"><span className="label">Twitter</span></a></li>
+					<li><a href="#" className="icon alt fa-facebook"><span className="label">Facebook</span></a></li>
+					<li><a href="#" className="icon alt fa-instagram"><span className="label">Instagram</span></a></li>
+					<li><a href="#" className="icon alt fa-github"><span className="label">GitHub</span></a></li>
+					<li><a href="#" className="icon alt fa-envelope"><span className="label">Email</span></a></li>
 				</ul>
-				<ul class="copyright">
+				<ul className="copyright">
 					<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li><li>Demo Images: <a href="http://unsplash.com">Unsplash</a></li>
 				</ul>
 			</section>
