@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import Poser from './Poser';
 import Photon from './Photon';
 import Icon from './Icon';
@@ -11,26 +11,19 @@ export default class App extends Component {
 
     render(){
     return (
-    <div className="App row">
-        <div>
-            <Photon/>
-        </div>    
-        <div>
+    <Fragment>
+            <Photon/>    
+        
             <Poser/>
-        </div>
-        <div>
+        
             <Icon/>
-        </div>
-        <div>
+        
             <More/>
-        </div>
-        <div>
+        
             <Sign/>
-        </div>
-        <div>
+        
             <Footer/>
-        </div>
-    </div>
-    );
+    </Fragment>
+    )
 }
 }
